@@ -2,7 +2,7 @@
   "name": "smart-life-productivity",
   "version": "1.0.0",
   "description": "Smart Life Productivity - Mobile & Desktop Executable App",
-  "main": "main.js",
+  "main": "expo-router/entry",
   "author": "Smart Life Team",
   "dependencies": {
     "@expo/ui": "~57.0.7",
