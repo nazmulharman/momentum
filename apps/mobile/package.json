@@ -47,6 +47,7 @@
     "lint": "expo lint",
     "desktop": "electron electron-main.js",
     "export:web": "npx expo export -p web",
+    "deploy:expo": "npx expo export -p web && npx -y eas-cli deploy --prod",
     "package:exe": "electron-packager . \"Smart Life Productivity\" --platform=win32 --arch=x64 --out=dist-desktop --ignore=\"(\\.gradle|android|\\.expo|\\.git|dist-desktop)\" --overwrite",
     "build:exe": "electron-builder --win dir",
     "build:apk": "npx expo prebuild --platform android"
